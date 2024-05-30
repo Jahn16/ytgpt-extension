@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "YT GPT",
+  "version": "1.0",
+  "description": "Browser extension for interacting with YT GPT",
+  "permissions": [
+    "tabs",
+    "https://*/*"
+  ],
+  "icons": {
+    "32": "icons/ytgpt-32.png"
+  },
+  "page_action": {
+    "default_icon": "icons/ytgpt-32.png",
+    "default_title": "YT GPT",
+    "default_popup": "popup.html",
+    "show_matches": [
+      "*://*.youtube.com/watch*"
+    ]
+  }
+}
